@@ -1,7 +1,7 @@
 # SingleArrayPolynomial
 class 'Polynomial' implement by using a single array to store all the coefficients and exponents.
 
-##struct:'Term'
+## struct:'Term'
 struct:'Term' stores data of a polynomial term
 
 	struct Term
@@ -11,8 +11,8 @@ struct:'Term' stores data of a polynomial term
 	}
 
 
-##class:'Polynomial'
-###Introduction
+## class:'Polynomial'
+### Introduction
 I store nonzeor terms of all the polynomials into s single array  *termArray*
  
 >The member variables should be: 
@@ -23,7 +23,7 @@ I store nonzeor terms of all the polynomials into s single array  *termArray*
 		int start,finish;
 
 >Static variable `free` is the index of next avalible space.`start` and `finish` points at the start position and finish position of a polynomial. 
-###Operations
+### Operations
 - `addTerm(float coef,int exp)`
 
 >Add a term into polynomial by passing coefficient and exponent(should be positive) 
@@ -52,7 +52,7 @@ I store nonzeor terms of all the polynomials into s single array  *termArray*
 
 
 
-##Tips:
+## Tips:
 Because of the weakness of designing class:'Polynomial', you can't create more than one instance of class:'Polynomial' at once.You must create only one instance when you need,
 	
 	Polynomial poly1;
